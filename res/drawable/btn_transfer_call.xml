@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <!--
-  ~ Copyright (C) 2014 The Android Open Source Project
+  ~ Copyright (C) 2016 The Android Open Source Project
   ~
   ~ Licensed under the Apache License, Version 2.0 (the "License");
   ~ you may not use this file except in compliance with the License.
@@ -18,14 +18,15 @@
 
 <layer-list xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <item android:id="@+id/backgroundItem"
-          android:drawable="@drawable/btn_background" />
+    <item
+        android:id="@+id/backgroundItem"
+        android:drawable="@drawable/btn_background" />
 
-    <item android:id="@+id/foregroundItem">
-        <bitmap android:src="@drawable/ic_toolbar_video"
+    <item>
+        <bitmap
+            android:src="@drawable/ic_shuffle_white_24dp"
             android:gravity="center"
-            android:tint="@color/selectable_icon_tint"
-            android:autoMirrored="true" />
+            android:tint="@color/selectable_icon_tint" />
     </item>
 
 </layer-list>
